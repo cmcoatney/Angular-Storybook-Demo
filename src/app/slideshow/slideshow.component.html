@@ -1,0 +1,12 @@
+<sb-play-button
+  data-testid="previous"
+  [type]="previous"
+  (onClickPrevious)="handlePreviousEvent()"
+></sb-play-button>
+<sb-slide [image]="slide?.image"></sb-slide>
+<sb-play-button
+  data-testid="next"
+  [type]="next"
+  (onClickNext)="handleNextEvent()"
+></sb-play-button>
+<span class="slide-number" data-testid="position">{{currentPosition}}</span>

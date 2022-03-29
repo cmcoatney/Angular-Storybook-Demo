@@ -1,0 +1,28 @@
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.button {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-color: #ff4685;
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+  color: white;
+
+  &:hover {
+    background-color: #65bcf4;
+  }
+}

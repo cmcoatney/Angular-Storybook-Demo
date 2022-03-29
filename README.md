@@ -1,27 +1,54 @@
-# SbAngularDemo
+# Up and running with Storybook Angular...
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
+1. install angular
 
-## Development server
+```zsh
+ng new sb-angular-demo --routing=true --package-manager=yarn --prefix=sb --style=scss
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+2. add storybook
 
-## Code scaffolding
+```zsh
+npx sb init
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. configure sb to look in component dirs instead of single folder (replace current stories prop with this):
 
-## Build
+```zsh
+stories: ["../src/app/**/*.stories.ts"],
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+4. add some angular components
 
-## Running unit tests
+```zsh
+ng g c slide
+ng g c play-button
+ng g c slideshow
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+5. add a story in component folder (see examples)
 
-## Running end-to-end tests
+6. If using a font from cdn in index.html like we are here, in this case from google, add preview-head.html in .storybook
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+7. Run Angular
 
-## Further help
+```zsh
+yarn start
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+8. Run Storybook
+
+```zsh
+yarn storybook
+```
+
+# Resources for Angular Storybook
+
+| Description      | Link                                                                                |
+| ---------------- | ----------------------------------------------------------------------------------- |
+| Storybook.js.org | https://storybook.js.org/tutorials/intro-to-storybook/angular/en/get-started/       |
+| Integrations     | https://www.youtube.com/watch?v=Ex52FHKyc7E                                         |
+| Add-ons: Figma   | https://storybook.js.org/blog/figma-plugin-sneak-peek/                              |
+| Add-ons: Zeplin  | https://www.youtube.com/watch?v=ZUHT0g3ZPYw                                         |
+| SB + Zeplin      | https://blog.zeplin.io/inside-zeplin-powered-up-storybook-integration               |
+| NG + SB Playlist | https://www.youtube.com/watch?v=EbCr0Y6ppbw&list=PLw5h0DiJ-9PBBCHIvsigzaFD2eqxvt3_y |
