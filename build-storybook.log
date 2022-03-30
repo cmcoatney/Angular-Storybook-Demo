@@ -1,0 +1,862 @@
+$ yarn docs:json && build-storybook --output-dir /var/folders/dk/mj2qgs2j4cd6r4l29xk2pd3w0000gn/T/chromatic--19722-OnD3K6Q1hGzK
+$ compodoc -p ./tsconfig.json -e json -d .
+[0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+
+1.1.19
+
+TypeScript version used by Compodoc : 4.5.5
+
+TypeScript version of current project : 4.4.3
+
+Node.js version : v14.17.5
+
+Operating system : macOS Monterey
+
+[09:29:15] No configuration file found, switching to CLI flags.
+[09:29:15] Using tsconfig file : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/tsconfig.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.DS_Store
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.browserslistrc
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.editorconfig
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.gitignore
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/README.md
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/angular.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/build-storybook.log
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/documentation.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/karma.conf.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/package.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/tsconfig.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/tsconfig.spec.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/yarn.lock
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/tsconfig.app.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.storybook/main.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.storybook/preview-head.html
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.storybook/preview.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.storybook/tsconfig.json
+[09:29:15] Ignoring       : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.storybook/typings.d.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/172.21099ac9.iframe.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/108.3e4feb91.iframe.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/173.3f176f74.iframe.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/278.61e3d0a1dfb21bae11d3.manager.bundle.js.LICENSE.txt
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/278.61e3d0a1dfb21bae11d3.manager.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/295.15cd09ddc9b0d8db7896.manager.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/319.1f845ce3b4724a58c0e1.manager.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/331.b6c7105cf8045ea0bb48.manager.bundle.js.LICENSE.txt
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/434.321e686f.iframe.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/434.321e686f.iframe.bundle.js.LICENSE.txt
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/331.b6c7105cf8045ea0bb48.manager.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/457.c7d302c4.iframe.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/173.3f176f74.iframe.bundle.js.LICENSE.txt
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/457.c7d302c4.iframe.bundle.js.LICENSE.txt
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/459.74ff5c46a3914a58732b.manager.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/521.a4836f8d.iframe.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/521.a4836f8d.iframe.bundle.js.LICENSE.txt
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/541.ef7160efaaa43b2d58d8.manager.bundle.js.LICENSE.txt
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/541.ef7160efaaa43b2d58d8.manager.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/574.71b0d2b1efa7a0d382bd.manager.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/589.d26d5613.iframe.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/589.d26d5613.iframe.bundle.js.LICENSE.txt
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/613.9e5214f7.iframe.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/613.9e5214f7.iframe.bundle.js.LICENSE.txt
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/671.df5514f5.iframe.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/671.df5514f5.iframe.bundle.js.LICENSE.txt
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/719.c359802b.iframe.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/767.a3fd5b01.iframe.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/favicon.ico
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/iframe.html
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/index.html
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/main.9470d0f2.iframe.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/main.b98a787d89b41298a8a8.manager.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/main.css
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/runtime~main.73ae5a00b66905ab7634.manager.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/runtime~main.d01fdca4.iframe.bundle.js
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/favicon.ico
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/index.html
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/main.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/polyfills.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/.DS_Store
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/styles.scss
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/test.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/assets/.gitkeep
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/app-routing.module.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/app.component.scss
+[09:29:15] Ignoring       : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/app.component.spec.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/app.component.html
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/app.component.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/app.module.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/environments/environment.prod.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/environments/environment.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/Button.stories.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/Header.stories.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/Introduction.stories.mdx
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/Page.stories.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/User.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/button.component.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/button.css
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/header.component.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/header.css
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/page.component.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/page.css
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/assets/.DS_Store
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/.DS_Store
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/assets/images/001.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/assets/images/002.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/assets/images/003.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/assets/images/005.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/assets/images/004.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/assets/images/000.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/storybook-static/assets/images/006.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/assets/images/000.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/assets/images/001.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/assets/images/002.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/assets/images/003.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/assets/images/005.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/assets/images/004.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/assets/images/006.png
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/0298a4263b104beaf00b7b1a107a75f1.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/02a252ab631cbf74e18156a14b8397f1.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/061ca5f482b2e664169450aff4e4bf05.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/0bed12a6abd89417f196f888d1fe7dd3.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/0ec6bf5546e72754efc0511f36cc64e0.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/0ab37d219ac95408c824e4581b527201.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/0fc4076c2ae0f085f93ce71d33768f2c.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/0fa4dc7f00d6331ffd9c8f027fc9ff8e.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/0b19a70b19b1fc4c7b514a238057914c.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/126cc0c4c8fc4a032e7f8f91c0e74025.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/0fe98122d526b98fe2612bd351f85150.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/1757b9cf4d0c0e0c61cb4603ed230f2f.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/1848464cc7d65a49bca96bcffb286e83.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/1311d8e53facd6a67f4cb063db020de5.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/1ef9a4e269955e79da54371b8a8185b1.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/256e39487af4cf853b0acca3c15d1771.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/26ab1f61f98ab7e84067480fdb0722e9.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/28b521be7c665ae3575d91c48ef55a2e.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/29d58b6c7f7a84cfe49955607e205d47.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/2a2eb05d02b1c66133c67dbe52a7e4ef.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/2c0ec26ca6122a7ba7fcdfad079c8108.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/2eb4428ef3050f92868d19f2b4cc5517.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/31b5777ea3daa8a45c50dab65e17dbe2.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/31c9f79fc7c71bbc3c641741623b3982.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/23469dbb7b069ba7ab4e97fc7bf4cfa1.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/3693ff88d06ca2203b9e8b2577d1716b.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/36e6365f614ecccbcd51507d59d8aead.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/37bb05544f3316ad5900f840a14c871b.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/38d14efc4afac7f593bde4b9295d9406.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/39c6f37b514d161da526068b856e2372.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/3bbd8a3e446ed95b60d6319a148685ad.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/08a4c5a5c51a01ced9e733052571bb80.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/33956e592aaa944a9bd5036d0ed0eac0.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/3f138b307060d838efb31db8fc82e6da.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/40ed6f7c6d93c1c2f291fc852d825a7c.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/45303fe3f509c0820018d667232dac9a.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/4179b634530bc729ac9c731407b8edc5.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/22729abb0ae78ed68ed72a2c8a87d685.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/4a4134230fd69146b2d94666f358a034.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/3bef7ce2811fbfd7c922b7049acac19d.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/4676201d85802f54bb801d2d9aa4758d.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/4f90c504a47bdf6de2d35e09abb62a44.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/49b226ded48dd92ee9c7dc82c78d629f.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/50be842baa1a2e344ede8da8e936a537.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/527fcd6d3e107beb36d382f56ba21e39.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/56e434909bd6013b8c488b7f5b81a681.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/5b7e5f9b65ea1798aa3ab1587055e00c.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/5bc4a26d05ddbaf5adce142e141ec279.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/57f5feebae965db24d6e3c59d774dd14.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/5df88e4c9b3acc7ff676347eafd0742b.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/5ea18d165c9ef2f635552c5e3c85bb3c.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/4ee7f87871c2b4f6242a04c10eefb24e.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/6583c1e777ad1cd85e590d4a4c8a6414.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/6bee8895321d23a870a665351e688d1d.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/5cb824944539396c724ede82fd2d0659.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/6ebe0f176e45bc018f0ec12337750a32.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/68ae871a03c176fd7b5770b794cca082.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/6c882d74fc872264065fb6f6fddb3572.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/709bcd6e0a647ebd682e1129fd39e3fb.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/717321ceeb8dce0bbf6d57f1679d010d.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/6ec77c19dbcef625923a8e72e4f437f5.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/742b71a933c7bf60b4f19fece8a2f9e8.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/7747ff693d42aae42235b283a7a03b2f.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/79bde48e851a23e599f3b6a598c09839.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/7ab5e9f224e73a9aff5cb1ab9df95535.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/7ae3b1251e7c4699fa6f4486452b116b.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/7b0b8fa663c766e5ebb131ddda11ab5e.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/7b771a356ec65515acd9d11d7bd97606.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/7906447278fcbfbb0f4d81b5ef7bb000.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/7de25e5da656dd1b2d75543195570828.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/7e086f1c05ea5adbb0a40e4ae819a01f.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/7e51c5f8beeafe7e75f147377a4c0c49.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/75541877f4cb48533b7acd45c26ad86b.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/8316d21ee7b74d481381c7d2d69c47c1.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/80d28683b7a0465a2b136b3f4cda8918.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/4ffacd0d973729ca63569363e9067906.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/7bb6db47248d4788d0fc48c1d58f1885.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/8de5a10fe2e13b843ab43c83c4b3a2b7.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/87ff46fdaf2c1f5635dada71f6106377.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/92a32145d26f278c889faca56f39a713.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/880c33ee3313ebcd54910c0467be2ac4.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/984eadcc1fc30383df4ae92b79d6fd71.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/8a45dc683977b5f85791154da9c0a15c.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/8f24ad5e604526528d2df7770b4d46e7.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/9a3a333918dc4669186a092a7838c890.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/a021cb1cd09fb6a903d91ccbd7c2b873.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/a20927bf2c7ec74de6e614eb52658ea8.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/a3a35eb3511b9401a819f8f74aeebfd4.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/a2c0bf931489f7649a8c47ffdb1834bc.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/a53bb0cba4d96c61f079b4d68f67e78d.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/a56631d9db4d07eed5456c133ce10b9b.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/a6cdd4ed0a5266dfdb883be06153a55a.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/ab98533eb579046f94b77c6156b6cf46.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/abb32d6daabf5144823091ae54b67b63.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/9f951624b1df110bfc4988b32c065f97.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/a3af90e9d4877f0625d7862673eac643.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/b648337df026adee4b245fd15edbb51b.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/b071eccf9c3c0a1df66a76f134d391bb.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/b92e7919ec5689a8712cf613301bd255.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/b88708199d29d00b7eb6167b41ffd3fe.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/b97ad82419d7c83ada6dba206d77986e.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/b949a49ed3d8b15366695e2e5bfd2751.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/bbdaf6a310615f9111b25e964242d6f5.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/bccca0d9271c45e918a061121488279b.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/bd82ad67a34d47b134d397047f77b6b6.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/bca44ba07fd8f7bba79a3b0c5c97727f.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/be7bbcc50a182b8af69497a800a01074.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/c0f9670cae414b6ad759a49dcb50ba83.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/c2715c006b971d457d002f5fdea0944c.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/bdb1f5d2171c0eda8b0fdf50dd7b85c5.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/c56b4a6c8aa19ce3bffdaed5272e3eb9.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/adff09906c706e955783e2e4ac6954eb.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/c4b7f66e22889208205beed2c196e1bb.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/c93cd602c7222a75abc18fb82972f785.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/c6126f28d6e41b8587ab1cfe194dd163.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/c7bfb2eab6c143f42767f4b8f3dcf33f.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/c9449ae3b11c84f00cec35deaef1a5bb.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/cbc503208f25949a30fda254199dbfec.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/ce5408587b2a7df937919098be075da8.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/ce5a4611a354fb717614e00a87aef474.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/ccddbe537e248fb8b85ac008a1bc6bf6.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/a17ba24cf2aff7404af9df5070aef717.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/d0dab64fe9509426329c50b081198949.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/d8e343a785ee72a2871a092590acd0b9.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/d3229c84382fdee1698557da5fe74451.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/d967d4f046a2d855fc8b4a1be1ffd098.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/d9d52640eeb15372003e7b535e84445a.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/d81f151bc2bc4d557e60c4e2917bdc65.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/db3028c6272165933b37d0eed522cd16.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/e069aad2a0b196ba109c9fb035f8a76d.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/db34fc6918f7e7d9468317a2289f0451.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/e24f10d503544e85a347c648d85cf614.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/e686cfb5d7791fa6d7839405c03073ef.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/e897f4915135188588845d4f25beca41.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/e915804675534372c9ee80ab06faeb77.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/e81b51f853fda75ec9e8e6958a8245e7.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/ea38df1a249fc97debf0d905832c9568.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/ec515f77ddccfbb1c941b881d595af68.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/eca6dcf70bdecf1e3e25c211b67ba055.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/ee172e48903bfe068339447d28d0818e.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/ef644e6c048fd3ab4e7a5139aa8e62ba.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/ee8f2f0e96bba1396c776625e12de9d1.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/f4a10831136c59aff248fe2675757764.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/f551236c672ae921dda2b74829da8d57.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/f6296942361610dbd1ed4e5b627a61d1.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/f72ad9ac3b4e9d4d148f87aa6608d06d.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/f9edb9bdfd3a3a53d3b86d5382f59bd4.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/f7a54e0037bf4aceacfb31d5dfac6a2f.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/da21924f751739adcc52dab998f18600.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/play-button/play-button.component.html
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/fbf877fe9a2247c9723f3ad6595229d6.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/play-button/play-button.component.scss
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/play-button/play-button.component.ts
+[09:29:15] Ignoring       : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/play-button/play-button.component.spec.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/play-button/play-button.stories.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slide/slide.component.html
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slide/slide.component.scss
+[09:29:15] Ignoring       : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slide/slide.component.spec.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slide/slide.component.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slide/slide.stories.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slideshow/slideshow.component.html
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slideshow/slideshow.component.scss
+[09:29:15] Ignoring       : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slideshow/slideshow.component.spec.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slideshow/slideshow.component.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/e23b8d0eff93f33f8919d1eb7761247c.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slideshow/slideshow.stories.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/shared/models/slide.ts
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/assets/code-brackets.svg
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/assets/colors.svg
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/assets/comments.svg
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/assets/direction.svg
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/assets/flow.svg
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/assets/plugin.svg
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/assets/repo.svg
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/assets/stackalt.svg
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/babel-webpack/fad3fced4918f0af2eefe96240c00b45.json
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/88a9446fb07a939d4c7f49076c8bc1ccf52c4ef1/0.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/88a9446fb07a939d4c7f49076c8bc1ccf52c4ef1/2.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/88a9446fb07a939d4c7f49076c8bc1ccf52c4ef1/1.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/0.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/88a9446fb07a939d4c7f49076c8bc1ccf52c4ef1/index.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/88a9446fb07a939d4c7f49076c8bc1ccf52c4ef1/index.pack.old
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/1.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/10.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/2.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/11.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/3.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/4.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/5.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/6.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/7.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/8.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/9.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/index.pack
+[09:29:15] Including      : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.angular/cache/angular-webpack/a12ed9999eebb415056b405410379da9c6d9a18f/index.pack.old
+[09:29:15] Searching package.json file
+[09:29:15] package.json file found
+[09:29:15] Processing package.json dependencies
+[09:29:15] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[09:29:15] README.md file found
+[09:29:15] Error during /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/CHANGELOG read
+[09:29:15] Continuing without CHANGELOG.md file
+[09:29:15] Error during /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/CONTRIBUTING read
+[09:29:15] Continuing without CONTRIBUTING.md file
+[09:29:15] Error during /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/LICENSE read
+[09:29:15] Continuing without LICENSE.md file
+[09:29:15] Error during /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/TODO read
+[09:29:15] Continuing without TODO.md file
+[09:29:15] Get dependencies data
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/main.ts
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/polyfills.ts
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/test.ts
+[09:29:18] found          : require
+[09:29:18] found          : context
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/app-routing.module.ts
+[09:29:18] Analysing routes definitions and clean them if necessary
+[09:29:18] found          : AppRoutingModule
+[09:29:18]                : - imports:
+[09:29:18]                : 	- RouterModule
+[09:29:18]                : - exports:
+[09:29:18]                : 	- RouterModule
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/app.component.ts
+[09:29:18] found          : AppComponent
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/app.module.ts
+[09:29:18] found          : AppModule
+[09:29:18]                : - imports:
+[09:29:18]                : 	- BrowserModule
+[09:29:18]                : 	- AppRoutingModule
+[09:29:18]                : - declarations:
+[09:29:18]                : 	- AppComponent
+[09:29:18]                : 	- SlideComponent
+[09:29:18]                : 	- PlayButtonComponent
+[09:29:18]                : 	- SlideshowComponent
+[09:29:18]                : - bootstrap:
+[09:29:18]                : 	- AppComponent
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/environments/environment.prod.ts
+[09:29:18] found          : environment
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/environments/environment.ts
+[09:29:18] found          : environment
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/Button.stories.ts
+[09:29:18] found          : Template
+[09:29:18] found          : Primary
+[09:29:18] found          : Secondary
+[09:29:18] found          : Large
+[09:29:18] found          : Small
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/Header.stories.ts
+[09:29:18] found          : Template
+[09:29:18] found          : LoggedIn
+[09:29:18] found          : LoggedOut
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/Page.stories.ts
+[09:29:18] found          : Template
+[09:29:18] found          : LoggedOut
+[09:29:18] found          : LoggedIn
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/User.ts
+[09:29:18] found          : User
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/button.component.ts
+[09:29:18] found          : ButtonComponent
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/header.component.ts
+[09:29:18] found          : HeaderComponent
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/page.component.ts
+[09:29:18] found          : PageComponent
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/play-button/play-button.component.ts
+[09:29:18] found          : BtnType
+[09:29:18] found          : PlayButtonComponent
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/play-button/play-button.stories.ts
+[09:29:18] found          : actionsData
+[09:29:18] found          : Template
+[09:29:18] found          : Next
+[09:29:18] found          : Previous
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slide/slide.component.ts
+[09:29:18] found          : SlideComponent
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slide/slide.stories.ts
+[09:29:18] found          : slides
+[09:29:18] found          : Template
+[09:29:18] found          : SlideZero
+[09:29:18] found          : SlideOne
+[09:29:18] found          : SlideTwo
+[09:29:18] found          : SlideThree
+[09:29:18] found          : SlideFour
+[09:29:18] found          : SlideFive
+[09:29:18] found          : SlideSix
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slideshow/slideshow.component.ts
+[09:29:18] found          : SlideshowComponent
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/slideshow/slideshow.stories.ts
+[09:29:18] found          : slides
+[09:29:18] found          : actionsData
+[09:29:18] found          : Template
+[09:29:18] found          : Default
+[09:29:18] parsing        : /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/shared/models/slide.ts
+[09:29:18] found          : slide
+[09:29:18] -------------------
+[09:29:18] Project statistics 
+[09:29:18] - files      : 288
+[09:29:18] - module     : 2
+[09:29:18] - component  : 7
+[09:29:18] - interface  : 2
+[09:29:18] -------------------
+[09:29:18] Prepare components
+[09:29:18]  AppComponent has a templateUrl, include it
+[09:29:18]  AppComponent has styleUrls, include them
+[09:29:18]  ButtonComponent has styleUrls, include them
+[09:29:18]  HeaderComponent has styleUrls, include them
+[09:29:18]  PageComponent has styleUrls, include them
+[09:29:18]  PlayButtonComponent has a templateUrl, include it
+[09:29:18]  PlayButtonComponent has styleUrls, include them
+[09:29:18]  SlideComponent has a templateUrl, include it
+[09:29:18]  SlideComponent has styleUrls, include them
+[09:29:18]  SlideshowComponent has a templateUrl, include it
+[09:29:18]  SlideshowComponent has styleUrls, include them
+[09:29:18] Prepare modules
+[09:29:18] Process routes
+[09:29:18] Prepare interfaces
+[09:29:18] Prepare miscellaneous
+[09:29:18] Process documentation coverage report
+[09:29:18] Generating documentation in export format json
+[09:29:18] Documentation generated in ./ in 3.448 seconds
+info @storybook/angular v6.4.19
+info 
+info => Cleaning outputDir: /var/folders/dk/mj2qgs2j4cd6r4l29xk2pd3w0000gn/T/chromatic--19722-OnD3K6Q1hGzK
+info => Loading presets
+info => Compiling manager..
+info => Compiling preview..
+info => Using implicit CSS loaders
+info => Loading angular-cli config for angular >= 13.0.0
+info => Using angular project with "tsConfig:/Users/matthewcoatney/code/storybook-demo/sb-angular-demo/.storybook/tsconfig.json"
+WARN Your Storybook startup uses a solution that will not be supported in version 7.0. 
+WARN You must use angular builder to have an explicit configuration on the project used in angular.json
+WARN Read more at:
+WARN - https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#sb-angular-builder)
+WARN - https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#angular13)
+info => Using angular project "sb-angular-demo:build" for configuring Storybook
+info => Using default Webpack5 setup
+<s> [webpack.Progress] 0% 
+
+<s> [webpack.Progress] 1% setup before run
+<s> [webpack.Progress] 1% setup before run NodeEnvironmentPlugin
+<s> [webpack.Progress] 1% setup before run
+<s> [webpack.Progress] 2% setup run
+<s> [webpack.Progress] 2% setup run
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 4% setup normal module factory CaseSensitivePathsPlugin
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 6% setup before compile angular-compiler
+<s> [webpack.Progress] 6% setup before compile ProgressPlugin
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 7% setup compile ExternalsPlugin
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 8% setup compilation CopyPlugin
+<s> [webpack.Progress] 8% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 8% setup compilation angular-compiler
+<s> [webpack.Progress] 8% setup compilation ArrayPushCallbackChunkFormatPlugin
+<s> [webpack.Progress] 8% setup compilation JsonpChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation StartupChunkDependenciesPlugin
+<s> [webpack.Progress] 8% setup compilation ImportScriptsChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileWasmPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileAsyncWasmPlugin
+<s> [webpack.Progress] 8% setup compilation WorkerPlugin
+<s> [webpack.Progress] 8% setup compilation SplitChunksPlugin
+<s> [webpack.Progress] 8% setup compilation RuntimeChunkPlugin
+<s> [webpack.Progress] 8% setup compilation ResolverCachePlugin
+<s> [webpack.Progress] 8% setup compilation HtmlWebpackPlugin
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 9% setup compilation DedupeModuleResolvePlugin
+<s> [webpack.Progress] 9% setup compilation AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 9% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 9% setup compilation SuppressExtractedTextChunks
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation ProvidePlugin
+<s> [webpack.Progress] 9% setup compilation ProgressPlugin
+<s> [webpack.Progress] 9% setup compilation ChunkPrefetchPreloadPlugin
+<s> [webpack.Progress] 9% setup compilation SourceMapDevToolPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptModulesPlugin
+<s> [webpack.Progress] 9% setup compilation JsonModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AssetModulesPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation RuntimePlugin
+<s> [webpack.Progress] 9% setup compilation InferAsyncModulesPlugin
+<s> [webpack.Progress] 9% setup compilation DataUriPlugin
+<s> [webpack.Progress] 9% setup compilation FileUriPlugin
+<s> [webpack.Progress] 9% setup compilation CompatibilityPlugin
+<s> [webpack.Progress] 9% setup compilation HarmonyModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AMDPlugin
+<s> [webpack.Progress] 9% setup compilation RequireJsStuffPlugin
+<s> [webpack.Progress] 9% setup compilation CommonJsPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation NodeStuffPlugin
+<s> [webpack.Progress] 9% setup compilation APIPlugin
+<s> [webpack.Progress] 9% setup compilation ExportsInfoApiPlugin
+<s> [webpack.Progress] 9% setup compilation WebpackIsIncludedPlugin
+<s> [webpack.Progress] 9% setup compilation ConstPlugin
+<s> [webpack.Progress] 9% setup compilation UseStrictPlugin
+<s> [webpack.Progress] 9% setup compilation RequireIncludePlugin
+<s> [webpack.Progress] 9% setup compilation RequireEnsurePlugin
+<s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+<s> [webpack.Progress] 9% setup compilation ImportPlugin
+<s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+<s> [webpack.Progress] 9% setup compilation SystemPlugin
+<s> [webpack.Progress] 9% setup compilation ImportMetaPlugin
+<s> [webpack.Progress] 9% setup compilation URLPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsFactoryPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPresetPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPrinterPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptMetaInfoPlugin
+<s> [webpack.Progress] 9% setup compilation EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 9% setup compilation RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 9% setup compilation MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 9% setup compilation FlagIncludedChunksPlugin
+<s> [webpack.Progress] 9% setup compilation SideEffectsFlagPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyExportsPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyUsagePlugin
+<s> [webpack.Progress] 9% setup compilation InnerGraphPlugin
+<s> [webpack.Progress] 9% setup compilation MangleExportsPlugin
+<s> [webpack.Progress] 9% setup compilation ModuleConcatenationPlugin
+<s> [webpack.Progress] 9% setup compilation NoEmitOnErrorsPlugin
+<s> [webpack.Progress] 9% setup compilation RealContentHashPlugin
+<s> [webpack.Progress] 9% setup compilation WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 9% setup compilation NamedModuleIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation TerserPlugin
+<s> [webpack.Progress] 9% setup compilation TemplatedPathPlugin
+<s> [webpack.Progress] 9% setup compilation RecordIdsPlugin
+<s> [webpack.Progress] 9% setup compilation WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 9% setup compilation IgnoreWarningsPlugin
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 10% building
+<s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
+<s> [webpack.Progress] 10% building 0/19 entries 1/19 dependencies 0/0 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/node_modules/@ngtools/webpack/src/ivy/index.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/babel-loader/lib/index.js
+<s> [webpack.Progress] 10% building 0/19 entries 3/19 dependencies 0/3 modules
+<s> [webpack.Progress] 10% building 0/19 entries 4/19 dependencies 0/3 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/node_modules/mini-css-extract-plugin/dist/loader.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/node_modules/css-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/node_modules/postcss-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/resolve-url-loader/index.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/node_modules/sass-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building 0/19 entries 5/19 dependencies 0/5 modules
+<s> [webpack.Progress] 10% building 0/19 entries 32/108 dependencies 0/30 modules
+<s> [webpack.Progress] 12% building 1/19 entries 90/147 dependencies 5/52 modules
+<s> [webpack.Progress] 15% building 2/19 entries 132/261 dependencies 8/89 modules
+<s> [webpack.Progress] 15% building import loader ./node_modules/@storybook/source-loader/dist/cjs/index.js
+<s> [webpack.Progress] 15% building 2/19 entries 263/343 dependencies 18/139 modules
+<s> [webpack.Progress] 15% building 2/19 entries 305/358 dependencies 20/155 modules
+<s> [webpack.Progress] 18% building 3/19 entries 654/801 dependencies 50/250 modules
+[BABEL] Note: The code generator has deoptimised the styling of /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/node_modules/prettier/standalone.js as it exceeds the max of 500KB.
+<s> [webpack.Progress] 18% building 3/19 entries 1200/1250 dependencies 126/350 modules
+<s> [webpack.Progress] 18% building 3/19 entries 1400/1652 dependencies 173/374 modules
+<s> [webpack.Progress] 18% building 3/19 entries 1500/1674 dependencies 175/376 modules
+<s> [webpack.Progress] 21% building 4/19 entries 1580/1677 dependencies 227/378 modules
+<s> [webpack.Progress] 21% building import loader ./node_modules/@angular-devkit/build-angular/node_modules/@ngtools/webpack/src/loaders/direct-resource.js
+<s> [webpack.Progress] 21% building 4/19 entries 1603/1677 dependencies 227/382 modules
+<s> [webpack.Progress] 21% building 4/19 entries 1952/2200 dependencies 284/454 modules
+<s> [webpack.Progress] 21% building 4/19 entries 2832/2900 dependencies 354/735 modules
+<s> [webpack.Progress] 21% building 4/19 entries 3850/3900 dependencies 592/923 modules
+<s> [webpack.Progress] 21% building 4/19 entries 3923/4000 dependencies 607/927 modules
+<s> [webpack.Progress] 21% building 4/19 entries 4812/4900 dependencies 842/1122 modules
+<s> [webpack.Progress] 21% building 4/19 entries 5445/5500 dependencies 1018/1306 modules
+<s> [webpack.Progress] 24% building 5/19 entries 5659/5711 dependencies 1109/1316 modules
+<s> [webpack.Progress] 27% building 6/19 entries 5659/5711 dependencies 1110/1316 modules
+<s> [webpack.Progress] 30% building 7/19 entries 5659/5711 dependencies 1111/1316 modules
+<s> [webpack.Progress] 33% building 8/19 entries 5659/5711 dependencies 1112/1316 modules
+<s> [webpack.Progress] 36% building 9/19 entries 5659/5711 dependencies 1113/1316 modules
+<s> [webpack.Progress] 38% building 10/19 entries 5659/5711 dependencies 1114/1316 modules
+<s> [webpack.Progress] 41% building 11/19 entries 5659/5711 dependencies 1115/1316 modules
+<s> [webpack.Progress] 44% building 12/19 entries 5659/5711 dependencies 1116/1316 modules
+<s> [webpack.Progress] 47% building 13/19 entries 5659/5711 dependencies 1117/1316 modules
+<s> [webpack.Progress] 50% building 14/19 entries 5659/5711 dependencies 1118/1316 modules
+<s> [webpack.Progress] 53% building 15/19 entries 5659/5711 dependencies 1122/1316 modules
+<s> [webpack.Progress] 56% building 16/19 entries 6379/6383 dependencies 1436/1476 modules
+<s> [webpack.Progress] 59% building 17/19 entries 6381/6387 dependencies 1460/1476 modules
+<s> [webpack.Progress] 62% building 18/19 entries 6389/6389 dependencies 1480/1481 modules
+<s> [webpack.Progress] 64% building 19/19 entries 6389/6389 dependencies 1481/1481 modules
+<s> [webpack.Progress] 65% building
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing finish module graph angular-compiler
+<s> [webpack.Progress] 70% sealing finish module graph ResolverCachePlugin
+<s> [webpack.Progress] 70% sealing finish module graph InferAsyncModulesPlugin
+<s> [webpack.Progress] 70% sealing finish module graph FlagDependencyExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph InnerGraphPlugin
+<s> [webpack.Progress] 70% sealing finish module graph WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 70% sealing plugins WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing dependencies optimization SideEffectsFlagPlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization FlagDependencyUsagePlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 75% sealing chunk optimization EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization SplitChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization ModuleConcatenationPlugin
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 79% sealing module reviving RecordIdsPlugin
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 80% sealing module ids NamedModuleIdsPlugin
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 82% sealing chunk reviving RecordIdsPlugin
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 84% sealing chunk id optimization FlagIncludedChunksPlugin
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record modules RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 86% sealing record chunks RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 92% sealing asset processing copy-webpack-plugin
+<s> [webpack.Progress] 92% sealing asset processing PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 92% sealing asset processing TerserPlugin
+info => Manager built (33 s)
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.css generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.css generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.0a3d3df3.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.0a3d3df3.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.78ceb59c.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.78ceb59c.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 767.4d20e817.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 767.4d20e817.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 589.c1e894eb.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 589.c1e894eb.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 173.dfe248e8.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 173.dfe248e8.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 457.74c11f87.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 457.74c11f87.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 521.5ffdcc88.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 521.5ffdcc88.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 172.b740e68f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 172.b740e68f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 719.61b5617f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 719.61b5617f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 108.694ac4cb.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 108.694ac4cb.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 434.bb836c17.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 434.bb836c17.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 671.aa51daf5.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 671.aa51daf5.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 613.ecb23d46.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 613.ecb23d46.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.9106706d.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.9106706d.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.d01fdca4.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.d01fdca4.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 767.a3fd5b01.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 767.a3fd5b01.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 172.21099ac9.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 172.21099ac9.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 719.c359802b.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 719.c359802b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 108.3e4feb91.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 108.3e4feb91.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 589.d26d5613.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 589.d26d5613.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 173.3f176f74.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 173.3f176f74.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 457.c7d302c4.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 457.c7d302c4.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 521.a4836f8d.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 521.a4836f8d.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 434.321e686f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 434.321e686f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 671.df5514f5.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 671.df5514f5.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 613.9e5214f7.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 613.9e5214f7.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 98% emitting after emit SizeLimitsPlugin
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% done plugins CaseSensitivePathsPlugin
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% 
+
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 100% 
+
+info => Preview built (40 s)
+WARN /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/app-routing.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/app.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/app/app.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/environments/environment.prod.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/environments/environment.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/main.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/Button.stories.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/Header.stories.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/Page.stories.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/User.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/button.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/header.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/matthewcoatney/code/storybook-demo/sb-angular-demo/src/stories/page.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   assets/images/003.png (303 KiB)
+WARN   589.d26d5613.iframe.bundle.js (636 KiB)
+WARN   457.c7d302c4.iframe.bundle.js (587 KiB)
+WARN   613.9e5214f7.iframe.bundle.js (2.57 MiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (2.65 MiB)
+WARN       runtime~main.d01fdca4.iframe.bundle.js
+WARN       613.9e5214f7.iframe.bundle.js
+WARN       main.css
+WARN       main.9106706d.iframe.bundle.js
+WARN 
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 100% 
+
+info => Output directory: /var/folders/dk/mj2qgs2j4cd6r4l29xk2pd3w0000gn/T/chromatic--19722-OnD3K6Q1hGzK

@@ -1,3 +1,7 @@
+# Published Storybook
+
+https://www.chromatic.com/builds?appId=6244852e74f8b2003abb1d0b
+
 # Up and running with Storybook Angular...
 
 1. install angular
@@ -41,6 +45,10 @@ yarn start
 ```zsh
 yarn storybook
 ```
+
+9. Deploy Storybook with Chromatic
+
+https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/
 
 # Resources for Angular Storybook
 
