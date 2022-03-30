@@ -471,7 +471,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".material-icons.md-48 {\n  font-size: 48px;\n}\n\n.noselect {\n  -webkit-touch-callout: none; /* iOS Safari */\n  -webkit-user-select: none; /* Safari */\n  -khtml-user-select: none; /* Konqueror HTML */\n  -moz-user-select: none; /* Old versions of Firefox */\n  -ms-user-select: none; /* Internet Explorer/Edge */\n  user-select: none; /* Non-prefixed version, currently\n                                  supported by Chrome, Edge, Opera and Firefox */\n}\n\n.button {\n  display: grid;\n  align-items: center;\n  justify-items: center;\n  background-color: #ff4685;\n  border-radius: 50%;\n  height: 125px;\n  width: 125px;\n  color: white;\n\n  &:hover {\n    background-color: #65bcf4;\n  }\n}\n",
+                    "data": ".material-icons.md-48 {\n  font-size: 48px;\n}\n\n.noselect {\n  -webkit-touch-callout: none; /* iOS Safari */\n  -webkit-user-select: none; /* Safari */\n  -khtml-user-select: none; /* Konqueror HTML */\n  -moz-user-select: none; /* Old versions of Firefox */\n  -ms-user-select: none; /* Internet Explorer/Edge */\n  user-select: none; /* Non-prefixed version, currently\n                                  supported by Chrome, Edge, Opera and Firefox */\n}\n\n.button {\n  display: grid;\n  align-items: center;\n  justify-items: center;\n  background-color: #ff4685;\n  //background-color: chartreuse;\n  border-radius: 50%;\n  height: 125px;\n  width: 125px;\n  color: white;\n\n  &:hover {\n    background-color: #65bcf4;\n  }\n}\n",
                     "styleUrl": "./play-button.component.scss"
                 }
             ],
@@ -854,21 +854,21 @@
                 "name": "environment",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/environments/environment.prod.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "object",
-                "defaultValue": "{\n  production: true\n}"
-            },
-            {
-                "name": "environment",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/environments/environment.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "object",
                 "defaultValue": "{\n  production: false\n}"
+            },
+            {
+                "name": "environment",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/environments/environment.prod.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "object",
+                "defaultValue": "{\n  production: true\n}"
             },
             {
                 "name": "Large",
@@ -1103,21 +1103,21 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/play-button/play-button.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<PlayButtonComponent>",
-                "defaultValue": "(args: PlayButtonComponent) => ({\n  props: { ...args, actionsData }\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/slide/slide.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<SlideComponent>",
                 "defaultValue": "(args: SlideComponent) => ({\n  props: args,\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/play-button/play-button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<PlayButtonComponent>",
+                "defaultValue": "(args: PlayButtonComponent) => ({\n  props: { ...args, actionsData },\n})"
             },
             {
                 "name": "Template",
@@ -1197,7 +1197,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<PlayButtonComponent>",
-                    "defaultValue": "(args: PlayButtonComponent) => ({\n  props: { ...args, actionsData }\n})"
+                    "defaultValue": "(args: PlayButtonComponent) => ({\n  props: { ...args, actionsData },\n})"
                 }
             ],
             "src/app/slideshow/slideshow.stories.ts": [
@@ -1263,18 +1263,6 @@
                     "type": "literal type"
                 }
             ],
-            "src/environments/environment.prod.ts": [
-                {
-                    "name": "environment",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/environments/environment.prod.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "object",
-                    "defaultValue": "{\n  production: true\n}"
-                }
-            ],
             "src/environments/environment.ts": [
                 {
                     "name": "environment",
@@ -1285,6 +1273,18 @@
                     "deprecationMessage": "",
                     "type": "object",
                     "defaultValue": "{\n  production: false\n}"
+                }
+            ],
+            "src/environments/environment.prod.ts": [
+                {
+                    "name": "environment",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/environments/environment.prod.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\n  production: true\n}"
                 }
             ],
             "src/stories/Button.stories.ts": [
